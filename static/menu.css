@@ -1,0 +1,59 @@
+.hero{
+    margin-top: 63px;
+    height: 300px;
+    background-image: url("https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/03/23/17/romulo-cafe-food.jpg?w968h681");
+    background-size: cover;
+}
+.hero h2{
+    font-size: 4em;
+    text-align: center;
+    color: black;
+    background-color: aliceblue;
+    opacity: 0.7;
+}
+.hero p{
+    color: black;
+    background-color: aliceblue;
+    opacity: 0.7;
+}
+.heading h2{
+    font-family: 'Roboto Mono', monospace; ;
+}
+.listings{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+}
+.listings .meals-box{
+    width: 240px;
+    height: 400px;
+    margin: 10px 0;
+    
+}
+.meals-box img{
+    width: 235px;
+    height: 225px;
+    padding: 10px;
+    border-radius: 20px;
+}
+main{
+    width: 60%;
+    margin: 10px auto;
+}
+.meals-box h3, .meals-box h4{
+    font-size: 1.3em;
+    font-family: "Monserrat", sans-serif;
+}
+.meals-box h3{
+    color: #325529;
+    padding: 10px 0;
+}
+.meals-box h4{
+    color: #0089A9;
+}
+.meals-box p{
+    padding: 5px;
+    font-family: "Monserrat", sans-serif;
+    font-size: 1.1em;
+
+}

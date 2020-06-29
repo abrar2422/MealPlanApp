@@ -1,0 +1,122 @@
+{{> header}}
+{{> navbar}}
+<link rel="stylesheet" href="menu.css"> 
+ <div class="hero">
+             <h2>Our full Menu</h2>
+             <p>Our menu serves people with all varieties of taste</p>
+         </div>
+         <main>
+            <div class="heading">
+                <h2>Choose your meal or create a custom one!!!</h2>
+            </div>
+            <div class="listings">
+                {{#each data}}
+                    <div class="meals-box">
+                        <img src="{{img}}" alt="">
+                        <h3>{{name}}</h3>
+                        <h4>{{price}}</h4>
+                        <p>{{desc}}</p>
+                    </div>
+                {{/each}}
+
+                </div>
+            </main>
+        {{> footer}}
+                    {{!-- <div class="meals-box">
+                        <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/11/25/0/FNK_pan-seared-salmon-with-kale-apple-salad_s4x3.jpg.rend.hgtvcom.616.462.suffix/1387918756116.jpeg" alt="">
+                        <h3>Grilled Salmon</h3>
+                        <h4>$29.99</h4>
+                        <p>
+                            High protein, low-calorie meals with a nutrient profile tuned for weight loss
+                        </p>
+                    </div>
+                    <div class="meals-box">
+                        <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/11/25/0/FNK_pan-seared-salmon-with-kale-apple-salad_s4x3.jpg.rend.hgtvcom.616.462.suffix/1387918756116.jpeg" alt="">
+                        <h3>Grilled Salmon</h3>
+                        <h4>$29.99</h4>
+                        <p>
+                            Higher protein and calorie portions to support your muscle gain momentum
+                        </p>
+                    </div>
+                    <div class="meals-box">
+                        <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/11/25/0/FNK_pan-seared-salmon-with-kale-apple-salad_s4x3.jpg.rend.hgtvcom.616.462.suffix/1387918756116.jpeg" alt="">
+                        <h3>Grilled Salmon</h3>
+                        <h4>$29.99</h4>
+                        <p>
+                            High fat, low carb meals with moderate protein to achieve and sustain ketosis
+                        </p>
+                    </div>
+                    <div class="meals-box">
+                        <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/11/25/0/FNK_pan-seared-salmon-with-kale-apple-salad_s4x3.jpg.rend.hgtvcom.616.462.suffix/1387918756116.jpeg" alt="">
+                        <h3>Grilled Salmon</h3>
+                        <h4>$29.99</h4>
+                        <p>
+                            Low carb, nutrient-rich meals with fat-burning profiles to support fat loss
+                        </p>
+                    </div>
+                    <div class="meals-box">
+                        <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/11/25/0/FNK_pan-seared-salmon-with-kale-apple-salad_s4x3.jpg.rend.hgtvcom.616.462.suffix/1387918756116.jpeg" alt="">
+                        <h3>Grilled Salmon</h3>
+                        <h4>$29.99</h4>
+                        <p>
+                            A fully plant-based package featuring vegan meat and no animal products
+                        </p>
+                    </div>
+                    <div class="meals-box">
+                        <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/11/25/0/FNK_pan-seared-salmon-with-kale-apple-salad_s4x3.jpg.rend.hgtvcom.616.462.suffix/1387918756116.jpeg" alt="">
+                        <h3>Grilled Salmon</h3>
+                        <h4>$29.99</h4>
+                        <p>
+                            A vegetarian-friendly package with a natural and nutrient-rich approach
+                        </p>
+                    </div>
+                    <div class="meals-box">
+                        <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/11/25/0/FNK_pan-seared-salmon-with-kale-apple-salad_s4x3.jpg.rend.hgtvcom.616.462.suffix/1387918756116.jpeg" alt="">
+                        <h3>Grilled Salmon</h3>
+                        <h4>$29.99</h4>
+                        <p>
+                            A delicious Keto version of our bestselling Prebiotic Soup Cleanse
+                        </p>
+                    </div>
+                    <div class="meals-box">
+                        <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/11/25/0/FNK_pan-seared-salmon-with-kale-apple-salad_s4x3.jpg.rend.hgtvcom.616.462.suffix/1387918756116.jpeg" alt="">
+                        <h3>Grilled Salmon</h3>
+                        <h4>$29.99</h4>
+                        <p>
+                            Our nutrient-packed cleanser with meals & organic juice for up to 14 days
+                        </p>
+                    </div>                    
+                    <div class="meals-box">
+                        <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/11/25/0/FNK_pan-seared-salmon-with-kale-apple-salad_s4x3.jpg.rend.hgtvcom.616.462.suffix/1387918756116.jpeg" alt="">
+                        <h3>Grilled Salmon</h3>
+                        <h4>$29.99</h4>
+                        <p>
+                            All of our bestselling Value meals in one package for even less
+                        </p>
+                    </div>
+                    <div class="meals-box">
+                        <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/11/25/0/FNK_pan-seared-salmon-with-kale-apple-salad_s4x3.jpg.rend.hgtvcom.616.462.suffix/1387918756116.jpeg" alt="">
+                        <h3>Grilled Salmon</h3>
+                        <h4>$29.99</h4>
+                        <p>
+                            A gluten-free package with the same balanced profile as our other packages
+                        </p>
+                    </div>
+                    <div class="meals-box">
+                        <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/11/25/0/FNK_pan-seared-salmon-with-kale-apple-salad_s4x3.jpg.rend.hgtvcom.616.462.suffix/1387918756116.jpeg" alt="">
+                        <h3>Grilled Salmon</h3>
+                        <h4>$29.99</h4>
+                        <p>
+                            All of our bestselling Value meals in one package for even less
+                        </p>
+                    </div>
+                    <div class="meals-box">
+                        <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/11/25/0/FNK_pan-seared-salmon-with-kale-apple-salad_s4x3.jpg.rend.hgtvcom.616.462.suffix/1387918756116.jpeg" alt="">
+                        <h3>Grilled Salmon</h3>
+                        <h4>$29.99</h4>
+                        <p>
+                            A vegan, plant-based version of our bestselling Prebiotic Soup Cleanse
+                        </p>
+                    </div> --}}
+
+

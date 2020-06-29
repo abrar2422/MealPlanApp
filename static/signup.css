@@ -1,0 +1,36 @@
+.name{
+    display: flex
+}
+#both{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+form {
+    margin-top: 80px;
+    text-align: center;
+    
+  }
+  form div{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+
+  input[type=text], input[type=password] {
+    width: 70%;
+    height: 40px
+  }
+  div input{
+      margin: 10px auto;
+  }
+  div label{
+      font-size: 1.2em;
+  }
+  form div button{
+      margin: 10px auto;
+  }
+form img{
+    width: 150px;
+    margin: 0 auto;
+}
