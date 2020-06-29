@@ -279,3 +279,127 @@ footer .icons{
     color: #003541;
     padding: 40px 200px;
 }
+@media (max-width: 415px) {
+    .hero{
+        background: url("https://img.pngio.com/food-background-images-94-images-in-co-381169-png-images-pngio-food-png-background-1440_619.png") center center  ;
+        margin: 65px auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .hero h1{
+        padding-top: 50px;
+        font-size: 3em;
+        text-align: center;
+    }
+    .hero p{
+        text-align: center;
+        font-size: 1em;
+        padding: 20px;
+        color: grey;
+    }
+    .cta button{
+        width: 250px;
+        height: 50px;
+        font-size: 1.2em;
+    }
+
+    main h1{
+        padding-top: 0px;
+        padding-bottom: 20px;
+        font-size: 2.5em;
+    }
+    main ul{
+        width: 100%;
+        font-size: 0.5em;
+
+    }
+    main ul li{
+        color: grey;
+        list-style-type:none ;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        margin: 0 0;
+        width: 100%;
+        justify-content: center;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 0.7em;
+    
+    
+    }
+    .content .box{
+        border-radius: 20px;
+        width: 250px;
+        margin: 0 auto;
+        margin-top: 30px;
+    } 
+    .content h2{
+        text-align: center;
+        padding-top: 15px;
+        font-size: 2em
+    }
+    .content p{
+        margin:0 10px;
+        padding: 5px 0;
+        font-family: "Monserrat", sans-serif;
+        font-size: 1.3em;
+        text-align: center;
+        color: grey;
+    
+    }
+    .content img{
+        width: 240px;
+        height: 200px;
+        border-radius: 20px;
+    }
+    main button{
+        width: 250px;
+        height: 50px;
+        font-size: 1.2em;
+    }
+    
+
+    .top-meal{
+        text-align: center;
+    }
+    .top-meal h1{
+        font-size: 2.5em;
+    }
+    .top-meal-listing{
+        width: 60%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .top-meal-listing .meal-box{
+        margin: 0px;
+    }
+    .top-meal-listing .meal-box h3{
+        padding: 20px 0;
+        font-family: "Monserrat", sans-serif;
+    }
+    .top-meal-listing .meal-box h4{
+        padding: 20px 0;
+        font-family: "Monserrat", sans-serif;
+        color: #325259;
+    }
+    .meal-box img{
+        width: 200px;
+        height: 200px;
+    }
+    .top-meal button{
+        width: 200px;
+        height: 50px;
+        font-size: 1.2em;
+    }
+}
+  
